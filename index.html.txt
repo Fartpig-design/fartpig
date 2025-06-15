@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FartPig 🐷</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐖 Welcome to FartPig!</h1>
+  <img id="pigImg" src="pig1.png" alt="Pig">
+  <audio id="fartSound" src="fart.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

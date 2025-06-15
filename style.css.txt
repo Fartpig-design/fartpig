@@ -1,0 +1,26 @@
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+img {
+  max-width: 80vw;
+  margin-top: 20px;
+}
+
+.puff {
+  position: absolute;
+  font-size: 4em;
+  color: #7fff00;
+  animation: puff 1s ease-out forwards;
+}
+
+@keyframes puff {
+  0% { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(-50px) scale(2); }
+}
